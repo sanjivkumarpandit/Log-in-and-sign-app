@@ -1,0 +1,59 @@
+
+@import 'https://fonts.googleapis.com/css?family=Lato:300';
+@import 'https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.9/css/weather-icons.min.css';
+
+
+html, body, .background
+{
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+html
+{
+  background: #fff;
+  
+}
+
+body 
+{
+  background: #eee;
+  background: linear-gradient(0deg, rgba(0, 0, 200, 0.2) , rgba(0, 0, 200, 0) );
+  overflow: hidden;
+}
+
+.background 
+{
+  background: #eee;
+  background: linear-gradient(120deg, rgba(50, 150, 100, 0.2) , rgba(0, 0, 100, 0) );
+}
+input {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    outline: 0;
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    background-color: black;
+    width: 400px;
+    border-radius: 3px;
+    padding: 10px 15px;
+    margin: 0 auto 10px auto;
+    display: block;
+    text-align: center;
+    font-size: 18px;
+    color: white;
+    transition-duration: 0.25s;
+    font-weight: 300;
+  }
+input:focus {
+    border-color:whitesmoke;
+    background-color: black;
+    color: #53e3a6;
+  }
